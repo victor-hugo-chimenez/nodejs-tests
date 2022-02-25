@@ -5,6 +5,7 @@ const sum = (a, b) => {
     if(Number.isNaN(number1) || Number.isNaN(number2)) {
         throw new Error('Please check your inputs')
     }
+    return number1 + number2
 }
 
 module.exports = sum
